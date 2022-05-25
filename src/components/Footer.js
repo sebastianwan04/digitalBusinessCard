@@ -1,16 +1,16 @@
 import React from "react"
-import iconFacebook from "../images/Facebook Icon.png"
-import iconTwitter from "../images/Twitter Icon.png"
-import iconGitHub from "../images/GitHub Icon.png"
-import iconInstagram from "../images/Instagram Icon.png"
+import iconFacebook from "../images/facebook_icon.png"
+import iconTwitter from "../images/twitter_icon.png"
+import iconGitHub from "../images/github_icon.png"
+import iconInstagram from "../images/instagram_icon.png"
 
 export default function Footer() {
     return (
-        <footer className="footer--icons">
-            <img src={iconTwitter} alt="" />
-            <img src={iconFacebook} alt="" />
-            <img src={iconInstagram} alt="" />
-            <img src={iconGitHub} alt="" />
+        <footer className="footer__icons">
+            <img src={iconTwitter} alt="twitter icon" />
+            <img src={iconFacebook} alt="facebook icon" />
+            <img src={iconInstagram} alt="instagram icon" />
+            <img src={iconGitHub} alt="github icon" />
         </footer>
     )
 }
